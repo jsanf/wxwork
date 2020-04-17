@@ -1,0 +1,24 @@
+{
+	"name" : "zhangzhongxian/wxwork",
+	"description" : "qiye weixin api",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "zhangzhongxian",
+			"email" : "664934750@qq.com"
+		}
+	],
+	"minimum-stability" : "stable",
+	"require" : {
+		"php" : ">=5.6"
+	},
+	"autoload" : {
+		"classmap":[
+          "src/api",
+		  "src/utils",
+		  "src/callback",
+		  "src/ErrorCode",
+		  "src/exception"
+        ]
+	}
+}
