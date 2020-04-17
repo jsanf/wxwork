@@ -50,7 +50,7 @@ class CorpAPI extends API
         if (!Utils::notEmptyStr($this->accessToken)) {
             $this->RefreshAccessToken();
         }
-        file_put_contents('a.txt', 'token:' . $this->accessToken . "\n", FILE_APPEND);
+        //file_put_contents('a.txt', 'token:' . $this->accessToken . "\n", FILE_APPEND);
         return $this->accessToken;
     }
 
