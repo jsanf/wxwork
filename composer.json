@@ -8,6 +8,7 @@
 			"email" : "664934750@qq.com"
 		}
 	],
+	"minimum-stability" : "stable",
 	"require" : {
 		"php" : ">=5.6"
 	},
